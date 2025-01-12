@@ -1,0 +1,20 @@
+{
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "astro@cyberpa.ws",
+        "Name": "astrosinclaire"
+      }
+    ],
+    "Category": "",
+    "Description": "Xenia splashscreen for KDE",
+    "Id": "xenia",
+    "License": "GPLv3",
+    "Name": "xenia",
+    "Website": "https://github.com/astro-cyberpaws/xenia-kde6"
+  },
+  "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+  "X-Plasma-APIVersion": "2",
+  "X-Plasma-MainScript": "default"
+}
