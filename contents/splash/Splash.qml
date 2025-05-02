@@ -27,10 +27,9 @@ Rectangle {
             anchors.right: parent.right
             anchors.rightMargin: 40
             source: "images/xenia.png"
-            Component.onCompleted: {
-                width = xenia.width * 1.5
-                height = xenia.height * 1.5
-            }
+            fillMode: Image.PreserveAspectFit
+            height: parent.height * 0.65
+            width: implicitWidth * (height / implicitHeight)
         }
 
         Image {
@@ -38,8 +37,9 @@ Rectangle {
             anchors.horizontalCenter: parent.horizontalCenter
             y: parent.height * 0.75 - height / 2
             source: "images/ring.svg"
-            sourceSize.height: 128
-            sourceSize.width: 128
+            fillMode: Image.PreserveAspectFit
+            height: parent.height * 0.05
+            width: height
             RotationAnimator on rotation {
                 id: rotationAnimator
                 from: 0
