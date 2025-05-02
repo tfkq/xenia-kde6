@@ -6,6 +6,6 @@ Simple Plasma splashscreen, featuring the true Linux mascot Xenia. Art by [catho
 ## Installation
 Install via the [KDE Store](https://store.kde.org/p/2242229/), or download it manually:
 ```bash
-mkdir -p ~/.local/share/plasma/look-and-feel/xenia/ && wget -qO- https://github.com/astro-cyberpaws/xenia-kde6/releases/download/v0.1/xenia.tar.gz | gunzip | tar xf - -C ~/.local/share/plasma/look-and-feel/xenia/
+mkdir -p ~/.local/share/plasma/look-and-feel/xenia/ && wget -qO- https://github.com/astro-cyberpaws/xenia-kde6/releases/download/v0.2/xenia.tar.gz | gunzip | tar xf - -C ~/.local/share/plasma/look-and-feel/xenia/
 ```
 After it downloads, navigate to "Splash Screen" in the System Settings app and select 'xenia'.
